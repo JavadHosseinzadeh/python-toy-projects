@@ -1,24 +1,33 @@
 Python Toy Projects
 
-This repository contains several small projects about Python programs, including threading, serial communication, neural networks, and trading bots. Each project has a series of basic Python programming concepts to be explored and applied in real-world scenarios.
+Below is a repository of small Python projects that explore concepts on threading, serial communication, simple neural networks, and building simple trading bots. Each project is designed to explore basic Python programming techniques and apply those concepts to the real world.
 
 ## 1. **Serial Reader**
 - **File**: `Serial_Reader.py`
-Description: A Python script that reads from a serial port connected with a device, such as a microcontroller or sensor; parses the data; and performs real-time data processing-somewhat useful for hardware interfacing, sensor networks, or IoT applications. The ongoing script keeps listening for data on the serial port and acts accordingly.
+- **Description**: This would read from a serial attached to some device, be it some microcontroller or sensor. Generally, this would parse and process the data in real time and becomes useful when working with hardware interfacing, sensor networks, or IoT applications. It continuously listens for any incoming data on the serial port and performs an action based on the input.
 
 ## 2. **Threading Example**
 - **File**: `thread_example.py`
-- **Description**: This project demonstrates how Python's `threading` module can be used to run multiple tasks concurrently. It provides examples of launching, suspending, and stopping threads. This script is directed at the benefits of multi-threading in dealing with tasks that involve waiting on external events (e.g., input/output operations).
+- **Description**: This is a simple project destined to introduce the user in the `threading` module of Python. Examples covered include thread creation, pause, and termination. The script underlines the advantages of the multithreading in the presence of tasks that involve waiting for an external event. There is more and more need for this because the programs are continuously bombarded with this kind of operations - for example I/O operations.
 
-## 3. **Trader Bot (Incomplete)**
+## 3. **Trader Bot (Not Complete)**
 - **File**: `Trader_bot_not_complete.py`
-- **Description**: This is a prototype of a trading bot. A bot that fetches real time stock or cryptocurrency prices, and attempts to make buy or sell decisions based on pre-defined conditions of price thresholds. It is incomplete but can easily be extended with trading strategies, data analysis, or integrating to real trading platforms.
+- **Description**: This is a prototype of a trading bot. It fetches in real-time the stock or cryptocurrency prices and tries to make buy/sell decisions based on pre-defined conditions (e.g., threshold in price). The code is incomplete but can be further extended by adding the trading strategy, data analysis, or integrating with real trading platforms.
 
 ## 4. **Neural Networks Final Questions**
-- **Files:**
-  - `NN_final_Question_3.ipynb`
-  - `NN_final_Question_5_1.ipynb`
-  - `NN_final_Question_5_2.ipynb`
+- **Files**:
+	- `NN_final_Question_3.ipynb`
+	- `NN_final_Question_5_1.ipynb`
+	- `NN_final_Question_5_2.ipynb`
 - `NN_final_Question_5_3.ipynb`
-- **Description**: Exercises in Jupyter notebook related to neural networks. Projects involve modeling, training, and evaluation methodologies. Employed various optimization techniques, activation functions, and neural network architectures for hands-on deep learning and machine learning concepts.
+- **Description**: Below is the set of Jupyter notebooks containing exercises about neural networks. Model building, techniques of training, and evaluation techniques are shared in these projects. The hands-on experience is provided in the deep learning and machine learning concepts during the investigation of several optimization techniques, various activation functions, and neural network architectures.
 
+## 5. **Snake Game**
+- **Files**:
+  - `main.py`
+  - `main_ser.py`
+- **Description**:
+The following describe a number of Python Scripts: - `main.py`: A UI version of the classic Snake game, wherein users can control snake movements using keyboard inputs.
+- `main_ser.py`: Extension to the Snake Game using inputs from serial communication devices, like a joystick or microcontroller, to move the snakes in real time.
+
+This repository is a collection of fun and practical Python projects that have the goal of reinforcing coding skills and also applying Python in different domains.
